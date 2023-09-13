@@ -3,7 +3,7 @@ name: WIP Checker
 on:
   pull_request:
     branches:
-    - main
+    - '**'
     types: [labeled, unlabeled, edited, opened, synchronize, reopened]
 
 jobs:
