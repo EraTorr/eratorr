@@ -3,7 +3,7 @@
 # Set to true to add assignees to pull requests
 addAssignees: true
 
-addReviewers: true
+addReviewers: false
 
 # A list of reviewers to be added to pull requests (GitHub user name)
 # a floating reviewer needs a weight, by default its 1
@@ -12,6 +12,7 @@ addReviewers: true
 reviewers:
     total: 0  
     fixed:
+        EraTorr
     floating:
 
 
