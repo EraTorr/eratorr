@@ -10,7 +10,7 @@ jobs:
   check_wip:
     runs-on: ubuntu-latest
     steps:
-    - name: Block if WIP PR
+    - name: Block_WIP_PR
       uses: ParanoidBeing/action-wip-blocker@v0.1.1
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
